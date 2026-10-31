@@ -1,0 +1,2 @@
+PASS: exhaustive recheck of all 64 combinations of count[3:0], reset and run, including off-edge stability.
+sim/tb_exhaustive_recheck.v:39: $finish called at 6080000 (1ps)

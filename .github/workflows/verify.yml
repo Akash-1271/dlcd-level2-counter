@@ -1,0 +1,35 @@
+name: Verify counter and demo
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Icarus Verilog
+        run: sudo apt-get update && sudo apt-get install -y iverilog
+      - name: Verify RTL and actual trace
+        run: |
+          python scripts/verify.py
+          python scripts/sync_demo_trace.py --check
+      - name: Install browser test tools
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Test interactive demonstration
+        run: npm test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: simulation-evidence
+          path: build/

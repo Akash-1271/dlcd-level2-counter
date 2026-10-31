@@ -1,0 +1,11 @@
+{
+  "name": "dlcd-level2-counter",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node tests/demo.test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

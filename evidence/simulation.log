@@ -1,0 +1,77 @@
+VCD info: dumpfile level2.vcd opened for output.
+DLCD Level 2 Problem 2 self-checking simulation
+seg[6:0]={a,b,c,d,e,f,g}, active high; checks occur after settling
+DECODE hex=0 seg=1111110 OK
+DECODE hex=1 seg=0110000 OK
+EDGE t=6000 reset=1 run=0 count=0 seg=1111110 OK
+DECODE hex=2 seg=1101101 OK
+DECODE hex=3 seg=1111001 OK
+DECODE hex=4 seg=0110011 OK
+DECODE hex=5 seg=1011011 OK
+DECODE hex=6 seg=1011111 OK
+EDGE t=16000 reset=0 run=1 count=1 seg=0110000 OK
+DECODE hex=7 seg=1110000 OK
+DECODE hex=8 seg=1111111 OK
+DECODE hex=9 seg=1111011 OK
+DECODE hex=a seg=1110111 OK
+DECODE hex=b seg=0011111 OK
+EDGE t=26000 reset=0 run=1 count=2 seg=1101101 OK
+DECODE hex=c seg=1001110 OK
+DECODE hex=d seg=0111101 OK
+DECODE hex=e seg=1001111 OK
+DECODE hex=f seg=1000111 OK
+EDGE t=36000 reset=0 run=1 count=3 seg=1111001 OK
+EDGE t=46000 reset=0 run=1 count=4 seg=0110011 OK
+EDGE t=56000 reset=0 run=1 count=5 seg=1011011 OK
+CHECK nonzero HOLD for six cycles, then immediate resume
+EDGE t=66000 reset=0 run=0 count=5 seg=1011011 OK
+EDGE t=76000 reset=0 run=0 count=5 seg=1011011 OK
+EDGE t=86000 reset=0 run=0 count=5 seg=1011011 OK
+EDGE t=96000 reset=0 run=0 count=5 seg=1011011 OK
+EDGE t=106000 reset=0 run=0 count=5 seg=1011011 OK
+EDGE t=116000 reset=0 run=0 count=5 seg=1011011 OK
+EDGE t=126000 reset=0 run=1 count=6 seg=1011111 OK
+CHECK synchronous reset asserted off-edge at nonzero count, with run=1
+EDGE t=136000 reset=1 run=1 count=0 seg=1111110 OK
+EDGE t=146000 reset=1 run=1 count=0 seg=1111110 OK
+EDGE t=156000 reset=0 run=0 count=0 seg=1111110 OK
+CHECK two complete 16-count sequences and wraparound
+EDGE t=166000 reset=0 run=1 count=1 seg=0110000 OK
+EDGE t=176000 reset=0 run=1 count=2 seg=1101101 OK
+EDGE t=186000 reset=0 run=1 count=3 seg=1111001 OK
+EDGE t=196000 reset=0 run=1 count=4 seg=0110011 OK
+EDGE t=206000 reset=0 run=1 count=5 seg=1011011 OK
+EDGE t=216000 reset=0 run=1 count=6 seg=1011111 OK
+EDGE t=226000 reset=0 run=1 count=7 seg=1110000 OK
+EDGE t=236000 reset=0 run=1 count=8 seg=1111111 OK
+EDGE t=246000 reset=0 run=1 count=9 seg=1111011 OK
+EDGE t=256000 reset=0 run=1 count=a seg=1110111 OK
+EDGE t=266000 reset=0 run=1 count=b seg=0011111 OK
+EDGE t=276000 reset=0 run=1 count=c seg=1001110 OK
+EDGE t=286000 reset=0 run=1 count=d seg=0111101 OK
+EDGE t=296000 reset=0 run=1 count=e seg=1001111 OK
+EDGE t=306000 reset=0 run=1 count=f seg=1000111 OK
+EDGE t=316000 reset=0 run=1 count=0 seg=1111110 OK
+EDGE t=326000 reset=0 run=1 count=1 seg=0110000 OK
+EDGE t=336000 reset=0 run=1 count=2 seg=1101101 OK
+EDGE t=346000 reset=0 run=1 count=3 seg=1111001 OK
+EDGE t=356000 reset=0 run=1 count=4 seg=0110011 OK
+EDGE t=366000 reset=0 run=1 count=5 seg=1011011 OK
+EDGE t=376000 reset=0 run=1 count=6 seg=1011111 OK
+EDGE t=386000 reset=0 run=1 count=7 seg=1110000 OK
+EDGE t=396000 reset=0 run=1 count=8 seg=1111111 OK
+EDGE t=406000 reset=0 run=1 count=9 seg=1111011 OK
+EDGE t=416000 reset=0 run=1 count=a seg=1110111 OK
+EDGE t=426000 reset=0 run=1 count=b seg=0011111 OK
+EDGE t=436000 reset=0 run=1 count=c seg=1001110 OK
+EDGE t=446000 reset=0 run=1 count=d seg=0111101 OK
+EDGE t=456000 reset=0 run=1 count=e seg=1001111 OK
+EDGE t=466000 reset=0 run=1 count=f seg=1000111 OK
+EDGE t=476000 reset=0 run=1 count=0 seg=1111110 OK
+EDGE t=486000 reset=0 run=0 count=0 seg=1111110 OK
+EDGE t=496000 reset=0 run=0 count=0 seg=1111110 OK
+EDGE t=506000 reset=0 run=0 count=0 seg=1111110 OK
+EDGE t=516000 reset=0 run=0 count=0 seg=1111110 OK
+EDGE t=526000 reset=0 run=1 count=1 seg=0110000 OK
+PASS: 53 edge checks, 104 between-edge checks, 16/16 decoder patterns, all 16 counts, 2 wraps; run=39 hold=11 reset=3
+tb_level2.v:151: $finish called at 527000 (1ps)
