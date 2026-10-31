@@ -156,4 +156,3 @@ module tb_level2;
         $fatal(1, "FAIL timeout: test did not complete within 2000 ns");
     end
 endmodule
-
