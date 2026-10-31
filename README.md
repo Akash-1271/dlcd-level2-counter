@@ -2,7 +2,7 @@
 
 **A 4-bit run/hold counter, a hexadecimal display, and a visual explanation of the circuit.**
 
-[![Verification](https://github.com/akash1448/dlcd-level2-counter/actions/workflows/verify.yml/badge.svg)](https://github.com/akash1448/dlcd-level2-counter/actions/workflows/verify.yml)
+[![Verification](https://github.com/Akash-1271/dlcd-level2-counter/actions/workflows/verify.yml/badge.svg)](https://github.com/Akash-1271/dlcd-level2-counter/actions/workflows/verify.yml)
 
 **Team:** Saameer · Aniketh · Akash · Karishma
 
