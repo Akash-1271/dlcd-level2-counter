@@ -1,6 +1,6 @@
 # Problem 2: 4-bit Run/Hold counter with hexadecimal display
 
-**Team:** Saameer, Aniketh, Akash, Karishma
+**Team:** Saameer, Akash, Aniketh, Karishma
 **Source:** `DLCD-LEVEL-2-PROBLEM.docx`, Problem 2 only.
 
 ## Requirements and interface

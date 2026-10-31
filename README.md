@@ -4,7 +4,7 @@
 
 [![Verification](https://github.com/Akash-1271/dlcd-level2-counter/actions/workflows/verify.yml/badge.svg)](https://github.com/Akash-1271/dlcd-level2-counter/actions/workflows/verify.yml)
 
-**Team:** Saameer · Aniketh · Akash · Karishma
+**Team:** Saameer · Akash · Aniketh · Karishma
 
 ![Display, stored bits and MUX output](docs/images/demo.png)
 

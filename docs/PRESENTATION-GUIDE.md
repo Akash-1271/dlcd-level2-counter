@@ -1,6 +1,6 @@
 # How to check and present Level 2
 
-Team: Saameer, Aniketh, Akash, Karishma.
+Team: Saameer, Akash, Aniketh, Karishma.
 
 ## Animated presentation demo
 
