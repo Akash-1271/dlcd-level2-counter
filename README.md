@@ -6,13 +6,23 @@
 
 **Team:** Saameer · Akash · Aniketh · Karishma
 
+## Open the simulation
+
+### [Download the visual simulation](https://github.com/Akash-1271/dlcd-level2-counter/releases/download/v1.0.0/counter-simulation.html)
+
+**Download → double-click `counter-simulation.html` → Start clock.** It opens in Chrome or Edge and works offline. No installation, terminal or PPT is needed. Press F11 for full screen.
+
+Use **Run/Hold**, **Reset** and **Next rising edge** to demonstrate the circuit. Select **Actual Verilog trace** to replay the verified simulation. The interactive mode models the circuit behavior; trace mode replays recorded Verilog output.
+
+This is a private repository: sign in with an account that has access to download the simulation. GitHub displays HTML source rather than running it inside repository pages.
+
 ![Display, stored bits and MUX output](docs/images/demo.png)
 
 ## Start here
 
 | You want to… | Open this |
 | --- | --- |
-| See the project without installing anything | Download/extract the repository ZIP, then double-click [demo/index.html](demo/index.html) |
+| Run the simulation without installing anything | [Download the ready-to-open HTML](https://github.com/Akash-1271/dlcd-level2-counter/releases/download/v1.0.0/counter-simulation.html), then double-click it |
 | Understand the circuit and signals | [Design, diagrams and truth tables](docs/DESIGN.md) |
 | Prepare the group demonstration | [Presentation guide and team roles](docs/PRESENTATION-GUIDE.md) |
 | See saved results | [Simulation log](evidence/simulation.log) and [VCD waveform](evidence/level2.vcd) |
